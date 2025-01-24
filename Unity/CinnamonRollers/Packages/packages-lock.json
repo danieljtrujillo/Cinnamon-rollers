@@ -97,16 +97,25 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.openai.unity": {
-      "version": "8.4.5",
+    "com.rest.elevenlabs": {
+      "version": "3.4.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.utilities.encoder.wav": "2.1.0",
         "com.utilities.rest": "3.3.0",
-        "com.utilities.websockets": "1.0.1"
+        "com.utilities.encoder.ogg": "4.0.1",
+        "com.utilities.encoder.wav": "2.0.2"
       },
       "url": "https://package.openupm.com"
+    },
+    "com.srcnalt.openai-unity": {
+      "version": "https://github.com/srcnalt/OpenAI-Unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "hash": "054467e2a2daccf7f23ff8f7165f1d832815dc70"
     },
     "com.unity.ai.navigation": {
       "version": "1.1.5",
@@ -398,6 +407,15 @@
       },
       "url": "https://package.openupm.com"
     },
+    "com.utilities.encoder.ogg": {
+      "version": "4.0.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.utilities.audio": "2.0.2"
+      },
+      "url": "https://package.openupm.com"
+    },
     "com.utilities.encoder.wav": {
       "version": "2.1.0",
       "depth": 0,
@@ -429,16 +447,6 @@
         "com.unity.modules.unitywebrequestaudio": "1.0.0",
         "com.unity.modules.unitywebrequesttexture": "1.0.0",
         "com.unity.modules.unitywebrequestwww": "1.0.0",
-        "com.unity.nuget.newtonsoft-json": "3.2.1"
-      },
-      "url": "https://package.openupm.com"
-    },
-    "com.utilities.websockets": {
-      "version": "1.0.1",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.utilities.async": "2.2.1",
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       },
       "url": "https://package.openupm.com"

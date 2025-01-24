@@ -9,25 +9,25 @@ public class ESPListener : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        List<DeviceSignature> pairedDevices = mySingularityManager.GetPairedDevices();
-        DeviceSignature myDevice = new DeviceSignature();
+        //List<DeviceSignature> pairedDevices = mySingularityManager.GetPairedDevices();
+        // DeviceSignature myDevice = new DeviceSignature();
 
-        //If you are looking for a device with a specific name (in this case exampleDeviceName):
-        for (int i = 0; i < pairedDevices.Count; i++)
-        {
-            if ("exampleDeviceName".Equals(pairedDevices[i].name))
-            {
-                myDevice = pairedDevices[i];
-                break;
-            }
-        }
+        // //If you are looking for a device with a specific name (in this case exampleDeviceName):
+        // for (int i = 0; i < pairedDevices.Count; i++)
+        // {
+        //     if ("exampleDeviceName".Equals(pairedDevices[i].name))
+        //     {
+        //         myDevice = pairedDevices[i];
+        //         break;
+        //     }
+        // }
 
-        if (!myDevice.Equals(default(DeviceSignature)))
-        {
-            //Do stuff to connect to the device here
-        }
+        // if (!myDevice.Equals(default(DeviceSignature)))
+        // {
+        //     //Do stuff to connect to the device here
+        // }
 
-        mySingularityManager.ConnectToDevice(myDevice);
+        // mySingularityManager.ConnectToDevice(myDevice);
         
     }
 

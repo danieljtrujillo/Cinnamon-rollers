@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "com.meta.xr.sdk.all": "71.0.0",
-    "com.openai.unity": "8.4.5",
+    "com.rest.elevenlabs": "3.4.3",
+    "com.srcnalt.openai-unity": "https://github.com/srcnalt/OpenAI-Unity.git",
     "com.unity.cinemachine": "2.10.3",
     "com.unity.collab-proxy": "2.6.0",
     "com.unity.ide.rider": "3.0.34",
@@ -63,7 +64,8 @@
       "url": "https://package.openupm.com",
       "scopes": [
         "com.openai",
-        "com.utilities"
+        "com.utilities",
+        "com.rest.elevenlabs"
       ]
     }
   ]
