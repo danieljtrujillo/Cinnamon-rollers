@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.meta.xr.sdk.all": "71.0.0",
+    "com.openai.unity": "8.4.5",
     "com.unity.cinemachine": "2.10.3",
     "com.unity.collab-proxy": "2.6.0",
     "com.unity.ide.rider": "3.0.34",
@@ -19,6 +20,11 @@
     "com.unity.ugui": "1.0.0",
     "com.unity.xr.management": "4.5.0",
     "com.unity.xr.oculus": "4.4.0",
+    "com.utilities.async": "2.2.1",
+    "com.utilities.audio": "2.1.0",
+    "com.utilities.encoder.wav": "2.1.0",
+    "com.utilities.extensions": "1.1.17",
+    "com.utilities.rest": "3.3.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -50,5 +56,15 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.openai",
+        "com.utilities"
+      ]
+    }
+  ]
 }
