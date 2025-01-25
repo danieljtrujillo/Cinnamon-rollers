@@ -244,6 +244,8 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
   - {fileID: 11400000, guid: 08361abb5959927429bd055580c27e7a, type: 2}
+  - {fileID: 11400000, guid: 290a6e6411d135049940bec2237b8938, type: 2}
+  - {fileID: 4097010278978653148, guid: 4c1640683c539c14080cfd43fbeffbda, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -264,7 +266,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.unity.template.urpsample
+    Android: com.DefaultCompany.CinnamonRollers
     Standalone: com.unity.template.urp-sample
     iPhone: com.unity.template.urp-sample
   buildNumber:
@@ -272,7 +274,7 @@ PlayerSettings:
     VisionOS: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 1
+  overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 32
   AndroidTargetSdkVersion: 0
@@ -1043,7 +1045,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 2
+  activeInputHandler: 1
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0

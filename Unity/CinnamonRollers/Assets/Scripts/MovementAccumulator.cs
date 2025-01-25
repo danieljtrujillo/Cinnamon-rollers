@@ -72,12 +72,12 @@ namespace Sngty
             if (avgRoll < rollThreshold)
             {
                 Debug.Log("Action A triggered! (Roll below threshold)");
-                Instantiate(prefabActionA, Vector3.zero, Quaternion.identity);
+                Instantiate(prefabActionA, new Vector3(0.07f, 0.0f, 1.94f), Quaternion.identity);
             }
             else
             {
                 Debug.Log("Action B triggered! (Roll >= threshold)");
-                Instantiate(prefabActionB, Vector3.zero, Quaternion.identity);
+                Instantiate(prefabActionB, new Vector3(0.07f, 0.0f, 1.94f), Quaternion.identity);
             }
         }
 
