@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "2G0YC1ZF9702PM",
+    "m_SelectedDeviceId": "2G0YC1ZF950RNX",
     "m_SelectedProcess": {
-        "deviceId": "2G0YC1ZF950RNX",
+        "deviceId": "2G0YC1ZF9702PM",
         "name": "com.unity.template.urpsample",
-        "processId": 14547,
+        "processId": 16715,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -54,6 +54,36 @@
             "deviceId": "2G0YC1ZF950RNX",
             "name": "com.unity.template.urpsample",
             "processId": 14547,
+            "exited": false
+        },
+        {
+            "deviceId": "2G0YC1ZF950RNX",
+            "name": "com.unity.template.urpsample",
+            "processId": 21089,
+            "exited": false
+        },
+        {
+            "deviceId": "2G0YC1ZF950RNX",
+            "name": "com.unity.template.urpsample",
+            "processId": 31552,
+            "exited": false
+        },
+        {
+            "deviceId": "2G0YC1ZF950RNX",
+            "name": "com.unity.template.urpsample",
+            "processId": 7267,
+            "exited": false
+        },
+        {
+            "deviceId": "2G0YC1ZF950RNX",
+            "name": "com.unity.template.urpsample",
+            "processId": 13322,
+            "exited": false
+        },
+        {
+            "deviceId": "2G0YC1ZF9702PM",
+            "name": "com.unity.template.urpsample",
+            "processId": 16715,
             "exited": false
         }
     ],
