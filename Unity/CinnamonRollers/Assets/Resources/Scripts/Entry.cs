@@ -30,6 +30,8 @@ public class Entry : MonoBehaviour
     [SerializeField] private List<FaderSettings> faders = new List<FaderSettings>();
     [SerializeField] private List<ObjectActivationSettings> objectsToActivate = new List<ObjectActivationSettings>();
 
+    public UnityEvent OnEntryComplete; // Event triggered when the Entry sequence finishes
+
     private void Start()
     {
         StartCoroutine(HandleFading());
@@ -42,6 +44,8 @@ public class Entry : MonoBehaviour
             StartCoroutine(FadeImage(fader));
         }
         yield return null;
+
+        CheckCompletion();
     }
     private IEnumerator FadeImage(FaderSettings fader)
     {
@@ -91,6 +95,9 @@ public class Entry : MonoBehaviour
             StartCoroutine(ActivateAndDeactivateObject(objSetting));
         }
         yield return null;
+
+        
+        CheckCompletion();
     }
     private IEnumerator ActivateAndDeactivateObject(ObjectActivationSettings objSetting)
     {
@@ -110,6 +117,18 @@ public class Entry : MonoBehaviour
             yield return new WaitForSeconds(objSetting.setInactiveAfterTime);
             // Deactivate the object
             objSetting.objectToActivate.SetActive(false);
+        }
+
+        CheckCompletion();
+
+    }
+
+        private void CheckCompletion()
+    {
+        // Check if both coroutines have finished
+        if (!IsInvoking("HandleFading") && !IsInvoking("HandleObjectActivation") && !IsInvoking("ActivateAndDeactivateObject"))
+        {
+            OnEntryComplete?.Invoke();
         }
     }
 }
