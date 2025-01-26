@@ -4329,6 +4329,104 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   SurfaceClearanceDistance: 0.1
+--- !u!1 &375093580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 375093582}
+  - component: {fileID: 375093581}
+  m_Layer: 0
+  m_Name: TotomiSequence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &375093581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375093580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ee06017c3211d4ea8439d9e27d4434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faders: []
+  objectsToActivate:
+  - objectToActivate: {fileID: 1695895485}
+    waitForTime: 1
+    shouldDeactivate: 0
+    setInactiveAfterTime: 5
+    onObjectActivated:
+      m_PersistentCalls:
+        m_Calls: []
+  - objectToActivate: {fileID: 1668958377}
+    waitForTime: 3
+    shouldDeactivate: 0
+    setInactiveAfterTime: 5
+    onObjectActivated:
+      m_PersistentCalls:
+        m_Calls: []
+  - objectToActivate: {fileID: 732155953}
+    waitForTime: 8
+    shouldDeactivate: 0
+    setInactiveAfterTime: 5
+    onObjectActivated:
+      m_PersistentCalls:
+        m_Calls: []
+  - objectToActivate: {fileID: 732155953}
+    waitForTime: 12
+    shouldDeactivate: 0
+    setInactiveAfterTime: 5
+    onObjectActivated:
+      m_PersistentCalls:
+        m_Calls: []
+  - objectToActivate: {fileID: 154119993}
+    waitForTime: 16
+    shouldDeactivate: 0
+    setInactiveAfterTime: 5
+    onObjectActivated:
+      m_PersistentCalls:
+        m_Calls: []
+  - objectToActivate: {fileID: 372147558}
+    waitForTime: 20
+    shouldDeactivate: 0
+    setInactiveAfterTime: 5
+    onObjectActivated:
+      m_PersistentCalls:
+        m_Calls: []
+  - objectToActivate: {fileID: 2097110011}
+    waitForTime: 23
+    shouldDeactivate: 0
+    setInactiveAfterTime: 5
+    onObjectActivated:
+      m_PersistentCalls:
+        m_Calls: []
+  OnEntryComplete:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &375093582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375093580}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.068829425, y: 1.0475073, z: 0.65677154}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &376566867
 GameObject:
   m_ObjectHideFlags: 0
@@ -6520,7 +6618,7 @@ Transform:
   m_GameObject: {fileID: 530421379}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3840332, y: 27.38987, z: 112.91343}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18979,7 +19077,7 @@ MonoBehaviour:
   _whenSelect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1695895485}
+      - m_Target: {fileID: 375093580}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -25093,52 +25191,10 @@ MonoBehaviour:
     onObjectActivated:
       m_PersistentCalls:
         m_Calls: []
-  - objectToActivate: {fileID: 1695895485}
-    waitForTime: 9
-    shouldDeactivate: 0
-    setInactiveAfterTime: 5
-    onObjectActivated:
-      m_PersistentCalls:
-        m_Calls: []
-  - objectToActivate: {fileID: 1668958377}
+  - objectToActivate: {fileID: 1431058961}
     waitForTime: 10
     shouldDeactivate: 0
-    setInactiveAfterTime: 5
-    onObjectActivated:
-      m_PersistentCalls:
-        m_Calls: []
-  - objectToActivate: {fileID: 732155953}
-    waitForTime: 15
-    shouldDeactivate: 0
-    setInactiveAfterTime: 5
-    onObjectActivated:
-      m_PersistentCalls:
-        m_Calls: []
-  - objectToActivate: {fileID: 732155953}
-    waitForTime: 15
-    shouldDeactivate: 0
-    setInactiveAfterTime: 5
-    onObjectActivated:
-      m_PersistentCalls:
-        m_Calls: []
-  - objectToActivate: {fileID: 154119993}
-    waitForTime: 25
-    shouldDeactivate: 0
-    setInactiveAfterTime: 5
-    onObjectActivated:
-      m_PersistentCalls:
-        m_Calls: []
-  - objectToActivate: {fileID: 372147558}
-    waitForTime: 30
-    shouldDeactivate: 0
-    setInactiveAfterTime: 5
-    onObjectActivated:
-      m_PersistentCalls:
-        m_Calls: []
-  - objectToActivate: {fileID: 2097110011}
-    waitForTime: 35
-    shouldDeactivate: 0
-    setInactiveAfterTime: 5
+    setInactiveAfterTime: 0
     onObjectActivated:
       m_PersistentCalls:
         m_Calls: []
@@ -29142,15 +29198,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7664650340610489665, guid: b5f9b1e8d1e39c04b886505de80cd143, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.3840332
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7664650340610489665, guid: b5f9b1e8d1e39c04b886505de80cd143, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -27.38987
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7664650340610489665, guid: b5f9b1e8d1e39c04b886505de80cd143, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -112.91343
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7664650340610489665, guid: b5f9b1e8d1e39c04b886505de80cd143, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29954,6 +30010,7 @@ SceneRoots:
   - {fileID: 1704708052}
   - {fileID: 1160234427}
   - {fileID: 1833958765}
+  - {fileID: 375093582}
   - {fileID: 1431058964}
   - {fileID: 9174399841770039295}
   - {fileID: 624171627}
