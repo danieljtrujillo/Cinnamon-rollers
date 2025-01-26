@@ -1247,6 +1247,81 @@ Transform:
   - {fileID: 1419710879}
   m_Father: {fileID: 1887662034}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &122410286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 122410289}
+  - component: {fileID: 122410288}
+  - component: {fileID: 122410287}
+  m_Layer: 0
+  m_Name: Couch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &122410287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122410286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d14e43228043c04db9e374568cb89a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnOnStart: 1
+  SpawnObject: {fileID: 8043775689681085820, guid: f4a7e247651aa054d8321d964a6cfb31, type: 3}
+  SpawnAmount: 1
+  MaxIterations: 1000
+  SpawnLocations: 3
+  Labels: 8
+  CheckOverlaps: 0
+  OverrideBounds: -1
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  SurfaceClearanceDistance: 0.1
+--- !u!114 &122410288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122410286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockId: 93762ef0-9738-45f4-bb87-bdb9a0acb994
+  instanceId: 0a9b1ba2-c9d2-4266-bf7b-fd28080923ea
+  version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
+--- !u!4 &122410289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122410286}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &130861969
 GameObject:
   m_ObjectHideFlags: 0
@@ -4290,45 +4365,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8043775689681085820, guid: f4a7e247651aa054d8321d964a6cfb31, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 372147559}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4a7e247651aa054d8321d964a6cfb31, type: 3}
 --- !u!4 &372147557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7271883980053249990, guid: f4a7e247651aa054d8321d964a6cfb31, type: 3}
   m_PrefabInstance: {fileID: 372147556}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &372147558 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8043775689681085820, guid: f4a7e247651aa054d8321d964a6cfb31, type: 3}
-  m_PrefabInstance: {fileID: 372147556}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &372147559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372147558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d14e43228043c04db9e374568cb89a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpawnOnStart: 1
-  SpawnObject: {fileID: 372147558}
-  SpawnAmount: 1
-  MaxIterations: 1000
-  SpawnLocations: 3
-  Labels: 8
-  CheckOverlaps: 0
-  OverrideBounds: -1
-  LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  SurfaceClearanceDistance: 0.1
 --- !u!1 &375093580
 GameObject:
   m_ObjectHideFlags: 0
@@ -4390,20 +4433,6 @@ MonoBehaviour:
         m_Calls: []
   - objectToActivate: {fileID: 154119993}
     waitForTime: 16
-    shouldDeactivate: 0
-    setInactiveAfterTime: 5
-    onObjectActivated:
-      m_PersistentCalls:
-        m_Calls: []
-  - objectToActivate: {fileID: 372147558}
-    waitForTime: 20
-    shouldDeactivate: 0
-    setInactiveAfterTime: 5
-    onObjectActivated:
-      m_PersistentCalls:
-        m_Calls: []
-  - objectToActivate: {fileID: 2097110011}
-    waitForTime: 23
     shouldDeactivate: 0
     setInactiveAfterTime: 5
     onObjectActivated:
@@ -21836,6 +21865,81 @@ Transform:
   - {fileID: 1332616757}
   m_Father: {fileID: 306240944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1642667576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1642667579}
+  - component: {fileID: 1642667578}
+  - component: {fileID: 1642667577}
+  m_Layer: 0
+  m_Name: Table
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1642667577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642667576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d14e43228043c04db9e374568cb89a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnOnStart: 1
+  SpawnObject: {fileID: 6995671648483043323, guid: b5f9b1e8d1e39c04b886505de80cd143, type: 3}
+  SpawnAmount: 1
+  MaxIterations: 1000
+  SpawnLocations: 3
+  Labels: 8
+  CheckOverlaps: 0
+  OverrideBounds: -1
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  SurfaceClearanceDistance: 0.1
+--- !u!114 &1642667578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642667576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockId: 93762ef0-9738-45f4-bb87-bdb9a0acb994
+  instanceId: 0a9b1ba2-c9d2-4266-bf7b-fd28080923ea
+  version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
+--- !u!4 &1642667579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642667576}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1646130761
 GameObject:
   m_ObjectHideFlags: 0
@@ -29239,45 +29343,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6995671648483043323, guid: b5f9b1e8d1e39c04b886505de80cd143, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2097110012}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5f9b1e8d1e39c04b886505de80cd143, type: 3}
 --- !u!4 &2097110010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7664650340610489665, guid: b5f9b1e8d1e39c04b886505de80cd143, type: 3}
   m_PrefabInstance: {fileID: 2097110009}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2097110011 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6995671648483043323, guid: b5f9b1e8d1e39c04b886505de80cd143, type: 3}
-  m_PrefabInstance: {fileID: 2097110009}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2097110012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097110011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d14e43228043c04db9e374568cb89a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpawnOnStart: 1
-  SpawnObject: {fileID: 2097110011}
-  SpawnAmount: 1
-  MaxIterations: 1000
-  SpawnLocations: 3
-  Labels: 8
-  CheckOverlaps: 1
-  OverrideBounds: -1
-  LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  SurfaceClearanceDistance: 0.1
 --- !u!1 &2107206993
 GameObject:
   m_ObjectHideFlags: 0
@@ -30016,6 +30088,8 @@ SceneRoots:
   - {fileID: 624171627}
   - {fileID: 1004533246}
   - {fileID: 1695895488}
+  - {fileID: 122410289}
+  - {fileID: 1642667579}
   - {fileID: 1208405949}
   - {fileID: 606389131}
   - {fileID: 1178569764}

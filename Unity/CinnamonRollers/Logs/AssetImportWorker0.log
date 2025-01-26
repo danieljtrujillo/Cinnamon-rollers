@@ -15,7 +15,7 @@ D:/Dev/Cinnamon-rollers/Unity/CinnamonRollers
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51114
+64504
 Successfully changed project path to: D:/Dev/Cinnamon-rollers/Unity/CinnamonRollers
 D:/Dev/Cinnamon-rollers/Unity/CinnamonRollers
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,16 @@ D:/Dev/Cinnamon-rollers/Unity/CinnamonRollers
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9192]  Target information:
+Player connection [17948]  Target information:
 
-Player connection [9192] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9192] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17948]  * "[IP] 10.29.188.96 [Port] 0 [Flags] 2 [Guid] 3294835654 [EditorId] 3294835654 [Version] 1048832 [Id] WindowsEditor(7,Gaius) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17948] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17948] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 17.49 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 13.02 ms, found 15 plugins.
 Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
-Preloading 3 native plugins for Editor in 3.32 ms.
+Preloading 3 native plugins for Editor in 3.46 ms.
 Initialize engine version: 2022.3.55f1 (9f374180d209)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Dev/Cinnamon-rollers/Unity/CinnamonRollers/Assets
@@ -73,47 +75,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007143 seconds.
-- Loaded All Assemblies, in  0.307 seconds
+Registered in 0.007744 seconds.
+- Loaded All Assemblies, in  0.362 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 314 ms
+Android Extension - Scanning For ADB Devices 305 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.613 seconds
-Domain Reload Profiling: 919ms
-	BeginReloadAssembly (88ms)
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 958ms
+	BeginReloadAssembly (135ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
+	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (127ms)
-		LoadAssemblies (87ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (133ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (115ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (614ms)
+	FinalizeReload (599ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (575ms)
+		SetupLoadedEditorAssemblies (556ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (408ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (396ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (114ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,7 +125,7 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.776 seconds
+- Loaded All Assemblies, in  0.733 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -135,8 +137,8 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: www.facebook.com
-E0126 08:44:52.246121 12100 TigonCurlRequestAdapter.cpp:659] [74c2c804bcff405d]  Request failed from curl: curl (6): Could not resolve hostname: Could not resolve host: www.facebook.com
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (35) schannel: next InitializeSecurityContext failed: CRYPT_E_NO_REVOCATION_CHECK (0x80092012) - The revocation function was unable to check revocation for the certificate.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.4.0\Runtime\OculusLoader.cs:307 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.4.0\Runtime\OculusLoader.cs:292 
@@ -159,50 +161,49 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.646 seconds
-Domain Reload Profiling: 3420ms
-	BeginReloadAssembly (151ms)
+- Finished resetting the current domain, in  3.217 seconds
+Domain Reload Profiling: 3948ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (534ms)
-		LoadAssemblies (344ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (516ms)
+		LoadAssemblies (318ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (273ms)
-			TypeCache.Refresh (212ms)
-				TypeCache.ScanAssembly (189ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (188ms)
 			ScanForSourceGeneratedMonoScriptInfo (44ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (2647ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (3217ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2418ms)
+		SetupLoadedEditorAssemblies (3005ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (17ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (2200ms)
-			ProcessInitializeOnLoadMethodAttributes (88ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (2809ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-E0126 08:44:53.253098 12100 TigonCurlRequestAdapter.cpp:659] [3edbebf64faefdbf]  Request failed from curl: curl (6): Could not resolve hostname: Could not resolve host: www.facebook.com
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
-Refreshing native plugins compatible for Editor in 10.08 ms, found 15 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 7.94 ms, found 15 plugins.
 Preloading 3 native plugins for Editor in 0.11 ms.
 Unloading 7174 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 103 unused Assets / (0.6 MB). Loaded Objects now: 7592.
-Memory consumption went from 304.1 MB to 303.4 MB.
-Total: 6.111300 ms (FindLiveObjects: 0.549800 ms CreateObjectMapping: 0.281400 ms MarkObjects: 4.924700 ms  DeleteObjects: 0.353800 ms)
+Memory consumption went from 304.1 MB to 303.5 MB.
+Total: 5.195800 ms (FindLiveObjects: 0.546800 ms CreateObjectMapping: 0.218100 ms MarkObjects: 4.139100 ms  DeleteObjects: 0.290900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -218,4 +219,838 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-E0126 08:44:58.907417 12100 TigonCurlRequestAdapter.cpp:659] [bc30cd091e4a32a9]  Request failed from curl: curl (6): Could not resolve hostname: Could not resolve host: www.facebook.com
+========================================================================
+Received Import Request.
+  Time since last request: 1712.752515 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7d259816ed14442ddbc9d90223b232d6') in 0.375050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 320
+========================================================================
+Received Import Request.
+  Time since last request: 20.605348 seconds.
+  path: Assets/Resources/Prefabs/couch1.prefab
+  artifactKey: Guid(f4a7e247651aa054d8321d964a6cfb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/couch1.prefab using Guid(f4a7e247651aa054d8321d964a6cfb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4193aff81d031f00476d94a7944a20c6') in 0.045535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 12.522524 seconds.
+  path: Assets/Resources/Prefabs/table1.prefab
+  artifactKey: Guid(b5f9b1e8d1e39c04b886505de80cd143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/table1.prefab using Guid(b5f9b1e8d1e39c04b886505de80cd143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0c7bd2557287844ccaea96f958e2c898') in 0.042926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 61.533329 seconds.
+  path: Assets/Resources/Prefabs/couch1.prefab
+  artifactKey: Guid(f4a7e247651aa054d8321d964a6cfb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/couch1.prefab using Guid(f4a7e247651aa054d8321d964a6cfb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '544192e75f082d55826a867a88cbcaf9') in 0.065179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 6.535559 seconds.
+  path: Assets/Resources/Prefabs/table1.prefab
+  artifactKey: Guid(b5f9b1e8d1e39c04b886505de80cd143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/table1.prefab using Guid(b5f9b1e8d1e39c04b886505de80cd143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '053c2d17314e2c15a2f68c24f1e1172d') in 0.060584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 49.132786 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e955d85e636f82171f59ad04c37ea41') in 0.284540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 321
+========================================================================
+Received Import Request.
+  Time since last request: 6.736349 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a491fecc61c4464c5be40af04eb04233') in 0.312067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 29.628451 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb471909f1a7eca16b9db32ef6d9d95f') in 0.111083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 7.916836 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f54255b66d10a6f8dda3836e6292725') in 0.312190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 4.523868 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b32bb8ee6df47d165e2b172a6cf1a8ad') in 0.273383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 7.184550 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a41975341714a106ae6da42aff998735') in 0.200497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 8.656850 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a9ca8fdb4c74ba47d963a090f11a34e4') in 0.317965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 9.363930 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd744329bfa32355cd3d7febfe0e9d4d9') in 0.228963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 8.029096 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b9aec86b0976509bc198e657986b5684') in 0.312287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 7.760345 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '80e5dff825ccf2036124035ce5b3fcbb') in 0.262481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 5.169096 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e50f008be9b26b7374de263f00f0ec9') in 0.221985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 18.318426 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3cd144431c9a5d905fe174831928b5e7') in 0.280166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 22.512973 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8a8e86c3407695767f18f7ef3442c2ed') in 0.260659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 359
+========================================================================
+Received Import Request.
+  Time since last request: 239.506267 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8a1bfefdfa53b22bbd4135183a759069') in 0.201937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 360
+========================================================================
+Received Import Request.
+  Time since last request: 0.627164 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78de7288793a3bfbc86d510796d2ddcb') in 0.105821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 360
+========================================================================
+Received Import Request.
+  Time since last request: 5.528483 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5c0662403cc1b562afc97dd01a58dbe6') in 0.247095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 360
+========================================================================
+Received Import Request.
+  Time since last request: 48.113791 seconds.
+  path: Assets/Resources/Models/colorsad.fbm
+  artifactKey: Guid(e9bc2f466d1b5fd47af723b59a095df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/colorsad.fbm using Guid(e9bc2f466d1b5fd47af723b59a095df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '97eca93b2029035c9776b27e0471800e') in 0.000990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.760152 seconds.
+  path: Assets/Resources/Models/colorwalk.fbm
+  artifactKey: Guid(5a9abcfa788e4b0489ed32cdfbb2a7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/colorwalk.fbm using Guid(5a9abcfa788e4b0489ed32cdfbb2a7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0e41d9737c237c73e44f2ccde7bba534') in 0.000664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.501429 seconds.
+  path: Assets/Resources/Models/couch.fbm
+  artifactKey: Guid(2ee77bd350d582848b2a436a24e37bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/couch.fbm using Guid(2ee77bd350d582848b2a436a24e37bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7a570e5b6d976c42e040658de624c55e') in 0.000730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.881436 seconds.
+  path: Assets/Resources/Models/Materials
+  artifactKey: Guid(e68614158fd0eb24bb42e4dad36ffe0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/Materials using Guid(e68614158fd0eb24bb42e4dad36ffe0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cc307110b00c157f13e3cd539ec6fc19') in 0.000570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.540768 seconds.
+  path: Assets/Resources/Models/planted.fbm
+  artifactKey: Guid(89c8fd12bc4a04546a34c1961b8fca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/planted.fbm using Guid(89c8fd12bc4a04546a34c1961b8fca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3952c0a544e6dc61a338707766cbd2c9') in 0.000558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 50.475090 seconds.
+  path: Assets/Resources/Move_anim.anim
+  artifactKey: Guid(d1e9717b50ef07d479dcc2a58a0f7b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Move_anim.anim using Guid(d1e9717b50ef07d479dcc2a58a0f7b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78ddc96aaf94a51bb6af53482eaf51f6') in 0.001139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 84.225421 seconds.
+  path: Assets/Resources/Particles
+  artifactKey: Guid(500a9f4e49b918e4285f0ebfd1660404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Particles using Guid(500a9f4e49b918e4285f0ebfd1660404) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8199d91b2cff74c6ffedea5ef4e793bf') in 0.000998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 186.196075 seconds.
+  path: Assets/Resources/Prefabs/Smoke.prefab
+  artifactKey: Guid(f195420f3e9eab642abc56a7e41f07bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Smoke.prefab using Guid(f195420f3e9eab642abc56a7e41f07bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '67d27a73877c5872cd6a654390143c80') in 0.014015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.750738 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '17530e0adde19977e9fd787ce05f611a') in 0.230545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 360
+========================================================================
+Received Import Request.
+  Time since last request: 5.729376 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b20a68804c44eaf47e6a496cd7641fce') in 0.240913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 365
+========================================================================
+Received Import Request.
+  Time since last request: 2.946137 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3f7c02d50196531323d905f68fffb4d5') in 0.179617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 365
+========================================================================
+Received Import Request.
+  Time since last request: 1.416664 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6e44c042ac06fb46668eff70cfe219bb') in 0.164201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 365
+========================================================================
+Received Import Request.
+  Time since last request: 0.035940 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7fa882d6999567579b92f2daa3685dfe') in 0.153832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 365
+========================================================================
+Received Import Request.
+  Time since last request: 0.040669 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e803e5db5a4d0415f14343c49e4e93cb') in 0.180281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 365
+========================================================================
+Received Import Request.
+  Time since last request: 0.593124 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cd2c829ea5f88387e00ab363f5168147') in 0.111086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 365
+========================================================================
+Received Import Request.
+  Time since last request: 0.087212 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '95a5c64df32b5ccbf859035dce44c23b') in 0.115831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 365
+========================================================================
+Received Import Request.
+  Time since last request: 0.701247 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b4bd0ce65f7031d541d89b74057ca732') in 0.106786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 365
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.46 ms, found 15 plugins.
+Preloading 3 native plugins for Editor in 0.11 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (0.6 MB). Loaded Objects now: 7688.
+Memory consumption went from 150.9 MB to 150.3 MB.
+Total: 6.517900 ms (FindLiveObjects: 0.531600 ms CreateObjectMapping: 0.208600 ms MarkObjects: 5.653700 ms  DeleteObjects: 0.123000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 249.162285 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '29a480f21e23ac7f0bc0cb7d9d2eff34') in 0.247455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 13.284226 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f587222e5e7a173818430d66e619674') in 0.280433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 0.716578 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '273faf38da2c062d853d797a391cefbb') in 0.108056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 1.291574 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5996df8085659f5820a79a39c83b85cc') in 0.156480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 6.093035 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '156758d677f2372dd812b6a6eade6c1b') in 0.209011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 20.015913 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cdee6c7c97f63675c9dfecbd52b1a79b') in 0.166483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 5.671933 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9639e6ac4c204711536f7837560fbeef') in 0.264455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 78.397436 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b9f5d13e000edf1ef0ec37aff0bf32b1') in 0.214434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.12 ms, found 15 plugins.
+Preloading 3 native plugins for Editor in 0.13 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (0.6 MB). Loaded Objects now: 7688.
+Memory consumption went from 151.0 MB to 150.4 MB.
+Total: 9.732500 ms (FindLiveObjects: 0.566000 ms CreateObjectMapping: 0.304300 ms MarkObjects: 8.704200 ms  DeleteObjects: 0.156500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 825.299620 seconds.
+  path: Assets/Resources/Models/table.fbm/shaded.png
+  artifactKey: Guid(b1bdebe4209d5eb43a19c85469806826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/table.fbm/shaded.png using Guid(b1bdebe4209d5eb43a19c85469806826) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f2158dcc742ff0bf6a7089ccaff844d8') in 0.090364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.099567 seconds.
+  path: Assets/SingularityHelloWorld.unity
+  artifactKey: Guid(3036d7c58fbb5fa4692a43913bdbf2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SingularityHelloWorld.unity using Guid(3036d7c58fbb5fa4692a43913bdbf2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1ac7e2d213c166e49065f5712799cb43') in 0.000856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 346.754588 seconds.
+  path: Assets/Resources/Scenes/Totomi_Flow.unity
+  artifactKey: Guid(10b0f46bfd16e4d4e9c289fc96548b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Totomi_Flow.unity using Guid(10b0f46bfd16e4d4e9c289fc96548b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fa1cd20657dc68ba900978bc0f839b88') in 0.000765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 107.210715 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0b97cd91451eaf595f856befa3362e1e') in 0.273999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 5.148035 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '65b8d9597fe93e29ba339b0ebbb41336') in 0.274026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 2.144832 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '243753f47452294b77e557b5c690e626') in 0.159334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 70.050894 seconds.
+  path: Assets/Resources/Models/UpdatedModels/idlefixed.fbx
+  artifactKey: Guid(4be7ce49ab1a5a54598e5a70876a54ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/UpdatedModels/idlefixed.fbx using Guid(4be7ce49ab1a5a54598e5a70876a54ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3f835029e4ad95835fc911e3cc6f1e72') in 0.052249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 15.145266 seconds.
+  path: Assets/Resources/Models/UpdatedModels/happyfixed.fbx
+  artifactKey: Guid(79b42aa6e87edbb439b82214837921b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/UpdatedModels/happyfixed.fbx using Guid(79b42aa6e87edbb439b82214837921b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8e09daf7880624445b1cc38acbc6b184') in 0.032331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 15.726975 seconds.
+  path: Assets/Resources/Models/UpdatedModels/sadfixed.fbx
+  artifactKey: Guid(fe0ff3cd327f7a44fb8afc3ea804af6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/UpdatedModels/sadfixed.fbx using Guid(fe0ff3cd327f7a44fb8afc3ea804af6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c2551697e6f6d692da2ed9ff9553d02e') in 0.034682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 55.920054 seconds.
+  path: Assets/Resources/Models/UpdatedModels/sadfixed.fbx
+  artifactKey: Guid(fe0ff3cd327f7a44fb8afc3ea804af6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/UpdatedModels/sadfixed.fbx using Guid(fe0ff3cd327f7a44fb8afc3ea804af6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '59370ed0855e34b4828f173e3a68ed5c') in 0.026011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 3.029537 seconds.
+  path: Assets/Resources/Models/UpdatedModels/idlefixed.fbx
+  artifactKey: Guid(4be7ce49ab1a5a54598e5a70876a54ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/UpdatedModels/idlefixed.fbx using Guid(4be7ce49ab1a5a54598e5a70876a54ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a1d9124f85787254f9605f77ecaffd8e') in 0.040643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 8.933969 seconds.
+  path: Assets/Resources/Models/UpdatedModels/jumpfixed.fbx
+  artifactKey: Guid(ca328307f4b87954d9d24e37ae4bdfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/UpdatedModels/jumpfixed.fbx using Guid(ca328307f4b87954d9d24e37ae4bdfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1fe365a1c405e3effc866ce0f7011438') in 0.032851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 21.697362 seconds.
+  path: Assets/Resources/Models/UpdatedModels/walkfixed.fbx
+  artifactKey: Guid(bf64500d152690846bc2f8c91214ce21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/UpdatedModels/walkfixed.fbx using Guid(bf64500d152690846bc2f8c91214ce21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd30aa9e6fa3dbda51680700276eab93b') in 0.026841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 3.381689 seconds.
+  path: Assets/Resources/Models/UpdatedModels/tiredfixed.fbx
+  artifactKey: Guid(feb2d0b96f7cef540a05e568af3fa79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/UpdatedModels/tiredfixed.fbx using Guid(feb2d0b96f7cef540a05e568af3fa79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '98a07c3dbdf2789743920ecc47553181') in 0.036971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.58 ms, found 15 plugins.
+Preloading 3 native plugins for Editor in 0.11 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (0.6 MB). Loaded Objects now: 7693.
+Memory consumption went from 151.3 MB to 150.7 MB.
+Total: 7.063800 ms (FindLiveObjects: 0.589700 ms CreateObjectMapping: 0.520500 ms MarkObjects: 5.809900 ms  DeleteObjects: 0.142600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 580.813324 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8be8990104789475941c4e2d6db3a137') in 0.266208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 376
+========================================================================
+Received Import Request.
+  Time since last request: 66.156327 seconds.
+  path: Assets/Resources/Models/UpdatedModels/happyfixed.controller
+  artifactKey: Guid(05069ffed4dda2741bf71349d5a562fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/UpdatedModels/happyfixed.controller using Guid(05069ffed4dda2741bf71349d5a562fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dfc2d9de3de9b14b724ea36fe1938eef') in 0.002270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 203.275482 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '73c3a634e78aa23613a8f5da360d391a') in 0.274132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 376
+========================================================================
+Received Import Request.
+  Time since last request: 20.870621 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ed3a2c0862999fea96aeb958aa66cd67') in 0.212552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 376
+========================================================================
+Received Import Request.
+  Time since last request: 3.502929 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd9d8835afd97aa0f43cda32c0a90d175') in 0.285975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 376
+========================================================================
+Received Import Request.
+  Time since last request: 8.158263 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c1a955a8f7c054cce036b83c4ddd622a') in 0.228192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 376
+========================================================================
+Received Import Request.
+  Time since last request: 1.362529 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fbb02c5c621f57d77b092d15eb568790') in 0.109501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 376
+========================================================================
+Received Import Request.
+  Time since last request: 23.743779 seconds.
+  path: Assets/Resources/Models/UpdatedModels/happyfixed.controller
+  artifactKey: Guid(05069ffed4dda2741bf71349d5a562fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/UpdatedModels/happyfixed.controller using Guid(05069ffed4dda2741bf71349d5a562fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78fe5a88ac1f1404c5688ba333ef8207') in 0.002764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.73 ms, found 15 plugins.
+Preloading 3 native plugins for Editor in 0.15 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (0.6 MB). Loaded Objects now: 7693.
+Memory consumption went from 151.1 MB to 150.6 MB.
+Total: 7.355100 ms (FindLiveObjects: 0.565000 ms CreateObjectMapping: 0.223500 ms MarkObjects: 6.434900 ms  DeleteObjects: 0.130300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 329.350815 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd443b8f4d2a48b13983aca8cf8d752c9') in 0.159016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 376
+========================================================================
+Received Import Request.
+  Time since last request: 91.936052 seconds.
+  path: Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab
+  artifactKey: Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FindSpawnPositionsTile Variant.prefab using Guid(6b15a8ec097b42847b2cebe6be7aac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '80fb1b6c893d56701579f12fbb2d43e0') in 0.268411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 357
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.53 ms, found 15 plugins.
+Preloading 3 native plugins for Editor in 0.12 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (0.6 MB). Loaded Objects now: 7693.
+Memory consumption went from 151.2 MB to 150.6 MB.
+Total: 7.035200 ms (FindLiveObjects: 0.549800 ms CreateObjectMapping: 0.483800 ms MarkObjects: 5.857900 ms  DeleteObjects: 0.142100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
